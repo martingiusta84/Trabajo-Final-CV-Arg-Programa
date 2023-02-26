@@ -1,0 +1,57 @@
+*{  margin: 10px;
+    padding: 10px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular';}
+
+.cajagrande{background-color: gainsboro;}
+
+
+.header{display: flex; flex-flow: column nowrap; justify-content: center;align-items: center;}
+
+   
+    #titulo{text-align: center}
+    h1{ font-family: Verdana; font: size 50px;}
+    h2{ font-family: Verdana; font-size: 30px; text-shadow: 1px 1px 1px; text-decoration-line: overline;}
+    
+
+
+    .barradenav{background-color:olivedrab;
+            display: flex; flex-flow: row nowrap ;font-family: 'Lucida Sans', 'Lucida Sans Regular';}
+        .barranav{color: black;}
+        .barranav:hover{color: white;}
+
+ 
+
+ 
+.aside{display: flex;flex-flow: row nowrap;}
+#infopersonal{background-color: gray; 
+    border-radius: 25px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';text-align: center;
+}
+
+
+
+
+ 
+.section{display: flex;flex-flow: row wrap; font-family: 'Lucida Sans', 'Lucida Sans Regular';}
+    #habilidades{flex:4 1 auto; width: 100%;}
+    h3{text-decoration: overline;}
+    
+    .explab{flex:1 1 auto;width: 25%;}
+        .experiencia
+    .formacad{flex:1 1 auto;width: 25%;}
+         .formacion
+    #audios{flex:1 1 auto;width: 100%;}
+
+ 
+ 
+ .piedepag{display: flex;flex-flow: column nowrap;justify-content: center;align-items: center; font-family: 'Lucida Sans', 'Lucida Sans Regular';}
+
+    h4{font-family: 'Lucida Sans';}
+    .contacto{background-color: olivedrab;display: flex;flex-flow: column nowrap;align-items: center;justify-content: center; border-radius: 25px;}
+
+    .adress{width: 100%;text-align: left; font-family: cursive;}
+    
+
+
+    
